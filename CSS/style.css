@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #EBEFF4;
+    background-image:url(../img/mm.jpg);
+}
+
+.form{
+    width: 395px;
+    height: 350px;
+    background-image:url(../img/mm.jpg) width="100%" ;
+    opacity:60px ;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 4px 5px 23px 0px #FFD3BA;
+}
+
+input{
+    padding: 15px;
+}
+::placeholder{
+    color: gray;
+    font-size: 16px;
+    
+}
+
+.user{
+    width: 365px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid #FBDFC7;
+    margin-bottom: 10px;
+}
+
+.Login{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    background:#BECEE5 ;
+    border-radius: 5px;
+    color:#507891;
+    font-size: 20px;
+    font-weight: 600px;
+    border: none;
+    margin-bottom: 15px;
+    
+}
+
+.likha{
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+
+.likha a{
+    text-decoration: none;
+    color:#EEC9AF;
+    font-size: 15px;
+    
+}
+
+hr{
+    border: 1px solid #dddfe2;
+    margin-bottom: 30px;
+    
+}
+
+.btn2{
+    width: 200px;
+    height: 50px;
+    background:#ACAFC2 ;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 700px;
+    
+}
